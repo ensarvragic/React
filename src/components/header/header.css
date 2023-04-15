@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    padding: 25px;
+}
+.title{
+    color: aqua;
+    margin-left: 30px;
+}
+.title:hover{
+    color: #7fffd4;
+}
+li{
+    display: inline;
+    color:aqua;
+    padding: 50px;
+    font-size: 16px;
+}
+li:hover{
+    color: #7fffd4;
+
+}
