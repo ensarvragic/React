@@ -4,21 +4,30 @@
     align-items: center;
     flex-direction: column;
     width: 300px;
-    height: 50vh;
+    height: 55vh;
     background-color: gray;
     border-radius: 30px;
-    margin: 20px;
+    margin: 50px;
 }
 .card img {
     width: 100%;
     height: 35vh;
     border-radius: 20px;
-    margin: -30px;
+    margin: -50px;
     
 }
 .card .programming {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
+    text-align: center;
+    margin-top: -30px;
+}
+h6{
+    margin-top: 10px;
+}
+.text-area{
+    text-align: center;
+    margin-top: 10px;
 }

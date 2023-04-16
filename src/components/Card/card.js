@@ -6,14 +6,13 @@ const Card = (props) => {
     return(
         <div className="card">
                 <img alt="" src={Image} />
-        <div>
+        <div className='text-area'>
             <h1>{props.title}</h1>
             <span>{props.about}</span>
         </div>
         <div className="programming">
-            <p>{props.title} -</p>
-            <p> - </p>
-            <p>- ${props.price}</p>
+            <p>{props.title} </p>
+            <p>- {props.price}</p>
         </div>
         </div>
     )
